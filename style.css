@@ -1,0 +1,134 @@
+body {
+  overflow-x: hidden;
+}
+* {
+  font-family: 'Mulish', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+#home {
+  margin: 10rem 0;
+}
+
+.btn-primary {
+  background-color: #5a67d8;
+  border: none;
+}
+h1 {
+  color: #131010;
+}
+p {
+  color: #6c757d;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+.project-card {
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05); /* Efek zoom */
+}
+
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 200px;
+  object-fit: cover;
+}
+.card-text {
+  color: black;
+}
+.btn-custom {
+  background-color: #5a67d8;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+}
+.review-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+.review-card:hover {
+  transform: scale(1.05);
+}
+.reviewer-name {
+  font-weight: bold;
+}
+.reviewer-rating i {
+  color: gold;
+}
+.reviewer-comment {
+  margin-top: 10px;
+}
+.carousel-item {
+  height: 500px;
+  background: #000;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+  object-fit: cover;
+  filter: brightness(60%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item h3 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.carousel-item:hover img {
+  transform: scale(1.1);
+}
+
+.carousel-indicators li {
+  background-color: #fff;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: brightness(0) invert(1);
+}
+
+footer a {
+  color: #000 !important;
+  text-decoration: none;
+  font-size: 12px;
+}
+footer {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .justify-content-center {
+    width: 70%;
+  }
+
+  .carousel {
+    display: none;
+  }
+}
