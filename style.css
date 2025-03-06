@@ -16,13 +16,10 @@ body {
 }
 h1 {
   color: #131010;
+  font-size: 1.6rem;
 }
 p {
   color: #6c757d;
-}
-
-h1 {
-  font-size: 1.8rem;
 }
 
 .project-card {
