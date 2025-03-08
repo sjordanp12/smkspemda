@@ -23,7 +23,13 @@ p {
 }
 .img-fluid {
   width: 100%;
-  height: 50rem;
+  height: 40rem;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
 }
 .project-card {
   transition: transform 0.3s ease;
@@ -62,6 +68,7 @@ p {
 }
 .review-card:hover {
   transform: scale(1.05);
+  cursor: pointer !important;
 }
 .reviewer-name {
   font-weight: bold;
@@ -79,6 +86,7 @@ p {
   position: relative;
   overflow: hidden;
   margin-top: 2rem;
+  cursor: pointer;
 }
 
 .carousel-item img {
@@ -123,6 +131,12 @@ footer a {
 }
 footer {
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .img-fluid {
+    height: 50%;
+  }
 }
 @media (min-width: 768px) {
   .justify-content-center {
